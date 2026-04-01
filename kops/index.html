@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرستي</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #eaf6ff;
+            direction: rtl;
+        }
+
+        header {
+            background-color: #4da6ff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            display: block;
+            margin: auto;
+        }
+        .logo {
+    width: 220px;        /* حجم كبير */
+    max-width: 90%;      /* ما يتعدى الشاشة */
+    height: auto;        /* يحافظ على الجودة */
+    display: block;
+    margin: 10px auto;
+}
+
+.logo {
+    width: 220px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;   /* حواف ناعمة */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* ظل خفيف */
+}
+
+
+
+        nav {
+            background-color: #80c1ff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        section {
+            padding: 15px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .gallery {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #4da6ff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* تصميم الجوال */
+       @media (max-width: 600px) {
+    .logo {
+        width: 140px;
+    }
+
+            .logo {
+                width: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- الشعار -->
+    <img src="logo.png.png" class="logo" alt="شعار المدرسة">
+
+    <h1>مدرسة واحة العرفة</h1>
+    <p>ابتكار مجتمع تربوي يتجه نحو تطوير قادة المستقبل</p>
+</header>
+
+<nav>
+    <a href="#about">عن المدرسة</a>
+    <a href="#contact">التواصل</a>
+    <a href="#location">الموقع</a>
+    <a href="#gallery">الصور</a>
+</nav>
+
+<section id="about">
+    <h2>نبذة عن المدرسة</h2>
+    <p>بدأت مدرسة واحة المعرفة الخاصة ببرنامج عبقري الرياضيات في عام ٢٠٠٦ وتم اتخاذ قرار تغيير مركز عبقري الرياضيات إلى مدرسة واحة المعرفة الخاصة في ۲۰۰۷م. انطلقت المدرسة بمبناها القديم في قرية الطريف وبناءً على تزايد عدد الطلاب تم الانتقال إلى مبنى أكبر لاستيعاب عدد أكبر من الطلاب في منطقة (الوقيبة). وقبل 6 سنوات في شهر مارس 2018 تم الانتقال إلى المبنى الحالي لارتفاع إيجار المبنى السابق وسعة المبنى الحالي وجمالية تصاميم ومساحات المبنى الحالي. تعتبر مدرسة واحة المعرفة الخاصة من أوائل المدارس الرائدة في محافظة شمال الباطنة وتسعى دائماً في تقديم أفضل الخدمات التعليمية التي تواكب الجيل الحديث. توجد للمدرسة موافقات للفصول الدراسية حتى الصف العاشر، ولكنه تم إغلاق الصفوف العليا بسبب قلة أعداد الطلاب ويوجد حالياً في المدرسة مراحل دراسية من الروضة حتى الصف السابع. تستهدف المدرسة بفتح جميع المراحل الدراسية في الفترة المقبلة بشكل تدريجي لتكون وجهة مناسبة لطلبة المراحل العليا. تخدم المدرسة حاليا ولاية صحار، صحم، شناص ولوى.</p>
+</section>
+
+<section id="contact">
+    <h2>التواصل</h2>
+    <p>Phone Number: 93337007\95355919</p>
+    <p>Instagram: @kops_sohar</p>
+    <p>X: @kops_2013</p>
+</section>
+
+<section id="location">
+    <h2>موقع المدرسة</h2>
+    <iframe 
+        src="https://www.google.com/maps?q=صحار،مدرسة واحة المعرفة&output=embed" 
+        height="250">
+    </iframe>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>صور المدرسة</h2>
+    <img src="images/image1.jpg.jpeg">
+    
+</section>
+
+<footer>
+    <p>© جميع الحقوق محفوظة - واحة المعرفة الخاصة </p>
+</footer>
+
+</body>
+</html>
